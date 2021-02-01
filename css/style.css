@@ -6,6 +6,7 @@ html {
     font-size: 100%;
 }
 body {
+    background-color: #fff;
     font-family: "Yu Gothic Medium", YuGothic, sans-serif;
     line-height: 1.7;
     color: #432;
@@ -99,6 +100,7 @@ img {
 /* NEWS
 ------------------------------ */
 #news {
+    background-color: #fff;
     background-image: url(../images/news-bg.jpg);
     height: 270px;
     margin-bottom: 40px;
