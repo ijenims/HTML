@@ -40,7 +40,7 @@
                     <p class="post-cat">Online 学習用</p>
                 </header>
 
-                <ul>
+                <ul class="link-item">
                     <li><a href="https://paiza.jp/works/mypage" target=_blank>
                         Paizaラーニング</a></li>
                     <li><a href="https://www.freecodecamp.org/learn/" target=_blank>
@@ -74,7 +74,7 @@
                     <p class="post-date">ref. <span>books</span></p>
                     <p class="post-cat">for Larning</p>
                 </header>
-                <ul>
+                <ul class="link-item">    <!--  ###### class="" の新規設定が必要　　##############  -->
                     <li><a href="https://honto.jp/netstore/pd-book_29559725.html" target=_blank>
                         「1冊ですべて身につく HTML&CSS とWeb デザイン入門講座」</a></li>
                     <li><a href="https://honto.jp/netstore/pd-book_30772816.html" target=_blank>
@@ -92,15 +92,19 @@
                     <p class="post-date">Lib. <span>arts</span></p>
                     <p class="post-cat">for Liberal arts</p>
                 </header>
-                <ul>
-                    <li><a href="https://honto.jp/netstore/pd-book_29559725.html" target=_blank>
-                        「AI 救国論」</a></li>
-                    <li><a href="https://honto.jp/netstore/pd-book_30772816.html" target=_blank>
-                        「ほんの一手間で劇的に変わるHTML & CSSとWebデザイン実践講座」</a></li>
-                    <li><a href="https://honto.jp/netstore/pd-book_27960041.html" target=_blank>
-                        「伝わるデザインの基本 よい資料を作るためのレイアウトのルール」</a></li>
-                    <li><a href="https://honto.jp/netstore/pd-book_03273384.html" target=_blank>
-                        「その数学が戦略を決める」</a></li>
+                <ul class="link-item">
+                    <li><a href="https://honto.jp/netstore/pd-book_29837357.html" target=_blank>
+                        「AI 救国論」</a><br>
+                        大澤昇平著, 2019/11/18, 858円</li>
+                    <li><a href="https://honto.jp/netstore/pd-book_30122143.html" target=_blank>
+                        「シン・ニホン ＡＩ×データ時代における日本の再生と人材育成」</a><br>
+                        安宅和人著, 2020/08/09, 2,640円</li>
+                    <li><a href="https://honto.jp/netstore/pd-book_28745929.html" target=_blank>
+                        「自動人形の城 人工知能の意図理解をめぐる物語」</a><br>
+                        川添愛著, 2020/12/07, 2,420円</li>
+                    <li><a href="https://honto.jp/netstore/pd-book_29784768.html" target=_blank>
+                        「これからのデータサイエンスビジネス （未来ＩＴ図解）」</a><br>
+                        松本健太郎,マスクド・アナライズ共著, 2020/12/07, 1,270円</li>
                 </ul>
 
                 <br>
@@ -112,35 +116,7 @@
                     <p class="post-cat">カテゴリー：HTML</p>
                 </header>
                 <img src="images/HTMLCSS2.webp" width="30%" alt="HTML">
-                <p>
-                    オフラインでBlogを構築・編集できる環境を探すが、未だ決定的な方法は見つからず。
-                    ブロガーとして稼ぐことを前提にしたガイドしか見つからない。
-                </p>
-                <p>
-                    Panasonic PCにはVSCodeがインストールされていない。管理者権限の都合上。
-                    この記事は「メモ帳」で編集しているが、文字色が単色なので効率悪し。
-                </p>
-                <p>
-                    昨日紹介したHTML&CSSの教材本と同著者の新刊が発売されるらしい。
-                    2月22日が発売日とのこと。興味あり。
-                </p>
-                <p><a href="" target=_blank>
-                    「ほんの一手間で劇的に変わるHTML & CSSとWebデザイン実践講座」
-                </a>
-                </p>
-                <p>
-                    Panasonic PCにAtomをインストールした。
-                    同時にHTMLファイルをその場でプレビューできるパッケージ
-                    「atom-html-preview」もインストール。
-                    なかなか良さげ。
-                    dynabookのVS Codeでも同様のパッケージがあるようなので試してみよう。
-                </p>
-                <p>
-                    VS Codeに「HTML Preview」をインストール。
-                    [ctrl]+[k]のあと、[v]で起動。<br>
-                    背景色が黒いので文字が見にくい。
-                    style.css の "article"部分背景を白くして解決。
-                </p>
+
                 <p>
                     本日購入した本。兼ねてから買おうと考えていた。
                     <a href="https://honto.jp/netstore/pd-book_27960041.html" target=_blank>
@@ -148,27 +124,6 @@
                 </p>
                 <img src="images/27960041_1.webp" width="30%" alt="RULE">
 
-                <header class="post-info"><!--     ◆◆◆          2/2  学習記録         ◆◆◆  -->
-                    <h2 class="post-title" id="href-2">AtomでHTML</h2>
-                    <p class="post-date">2/2 <span>2021</span></p>
-                    <p class="post-cat">カテゴリー：HTML</p>
-                </header>
-                <img src="images/Atom.jpg" width="30%" alt="Atom">
-                <p>
-                    Atomの動作確認。<br>
-                    HTMLプレビュー画面を表示するには[control] + [shift] + [H]。
-                    または編集画面右クリック[Preview HTML]を選択。
-                </p>
-                <p>
-                    編集画面は通常どおり使えるが、プレビュー画面は毎回ページ先頭へジャンプ。
-                    VS Codeよりはマシではあるが痒いところ。
-                </p>
-                <p>
-                    "Open In Browser"をインストール。
-                    ブラウザを立ち上げてhtmlファイルを開く。
-                    リアルタイムに編集内容が反映されるわけでなく、使わないかも。
-                </p>
-                <p></p>
 
                 <header class="post-info"><!--     ◆◆◆          2/3  [title]         ◆◆◆  -->
                     <h2 class="post-title" id="href-2">freeCodeCamp</h2>
@@ -181,79 +136,9 @@
                 <p><a href="https://www.freecodecamp.org/learn/" target=_blank>
                     freeCodeCamp</a>で学習。半月ぶりぐらいか。
                 </a>
-                <a>
-                    Pythonの講義ビデオ（英語）を2本視聴。
-                    ”演算子”および“try-except構文”。
-                    英語ヒアリングはまだまだだが、スライドと字幕（これも英語）により何とかついて行く。
-                </p>
-                <p>
-                    HTMLをWeb教材にて学習。英語はそれほど難しくはない。<br>
-                    "Basic HTML and HTML5" 全28項目のうち、本日は続きの項目8～23。
-                    以前学んだ内容であり、復習にはちょうどいい感じ。
-                </p>
-                <p></p>
                 <p><br></p>
 
-                <header class="post-info"><!--     ◆◆◆          2/4  [title]         ◆◆◆  -->
-                    <h2 class="post-title" id="href-2">Markup vs. Markdown</h2>
-                    <p class="post-date">2/4 <span>2021</span></p>
-                    <p class="post-cat">カテゴリー：HTML</p>
-                </header>
-                <img src="images/wall.jpg" width="30%" alt="none">
-                <p>
-                    HTMLとは、Hyper Text Markup Languageの略で、
-                    Webページを作るための最も基本的なマークアップ言語のひとつです。
-                    <br>
-                    普段、私たちがブラウザで観ているWebページのほとんどが、
-                    HTMLで作られています。<br>
-                    （出典：
-                    <a href="https://techacademy.jp/magazine/4843#sec1" target=_blank>
-                        https://techacademy.jp/magazine/4843#sec1
-                    </a>
-                        ）
-                </p>
-                <p>
-                    Markdown（マークダウン）は、
-                    文書を記述するための軽量マークアップ言語のひとつである。
-                    本来はプレーンテキスト形式で手軽に書いた文書から
-                    HTMLを生成するために開発されたものである。<br>
-                    （出典：
-                    <a href="https://ja.wikipedia.org/wiki/Markdown" target=_blank>
-                        https://ja.wikipedia.org/wiki/Markdown
-                    </a>
-                        ）
-                </p>
-                <p>
-                    Atomでプレビュー画面のページトップジャンプを改善するために
-                    'markdown-scroll-sync'をインストールしたが作動せず。
-                    マークダウン用だからか？？
-                </p>
-                <p>
-                    Free Code Camp は"Basic HTML and HTML5"
-                    課程の項目24～最終28を修了。<br>
-                    次は"Basic CSS"課程。本日は44項目のうち3項目を履修。
 
-                </p>
-                <p><br></p>
-
-                <header class="post-info"><!--     ◆◆◆          2/5  [title]         ◆◆◆  -->
-                    <h2 class="post-title" id="href-2">freeCodeCampでヒアリング訓練</h2>
-                    <p class="post-date">2/5 <span>2021</span></p>
-                    <p class="post-cat">カテゴリー：Python</p>
-                </header>
-                <img src="images/wall.jpg" width="30%" alt="none">
-                <p>
-                    本日は freeCodeCamp で Python の function(def文) を視聴。
-                    英語の勉強も兼ねて。
-                    内容は理解しているので英語ヒアリングの訓練になる。
-                </p>
-                <p>
-                    東大松尾研のHPよりデータサイエンティスト講座をダウンロード。
-                    内容は明日以降確認する予定。
-                    ありがたいことに無料公開。
-                </p>
-                <p></p>
-                <p><br></p>
 
                 <header class="post-info"><!--     ◆◆◆          2/#  [title]         ◆◆◆  -->
                     <h2 class="post-title" id="href-2">東大松尾研</h2>
@@ -280,52 +165,6 @@
                 </p>
                 <p><br></p>
 
-                <header class="post-info"><!--     ◆◆◆          2/#  [title]         ◆◆◆  -->
-                    <h2 class="post-title" id="href-2">デザインRULE / 松尾研</h2>
-                    <p class="post-date">2/7 <span>2021</span></p>
-                    <p class="post-cat">カテゴリー：HTML / Python</p>
-                </header>
-                <img src="images/wall.jpg" width="30%" alt="none">
-                <p>
-                    2/1購入の
-                    「伝わるデザインの基本 よい資料を作るためのレイアウトのルール」
-                    については、スキマ時間で細々と学習中。
-                    私の目指す方向と合っているので抵抗なく入ってくる。<br>
-                    これまでに「フォント」「文章レイアウト」を学習。
-                </p>
-                <p>
-                    松尾研講座昨日の続き。内容は以下。<br>
-                    ・Chapter-2 のうち Numpy の乱数および行列部分。<br>
-                </p>
-                <p>
-                    Jupyter Lab の存在を知る。
-                    Jupyter Notebook の後継とのこと。
-                    anaconnda3 導入時にインストールされていたが、
-                    認識はなかった（デフォルトでショートカットが作成されていない）。<br>
-                    ショートカット作成には少々手こずったが、web 検索で何とかなった。
-                </p>
-                <p><br></p>
-
-                <header class="post-info"><!--     ◆◆◆          2/#  [title]         ◆◆◆  -->
-                    <h2 class="post-title" id="href-2">miner change</h2>
-                    <p class="post-date">2/8 <span>2021</span></p>
-                    <p class="post-cat">カテゴリー：HTML</p>
-                </header>
-                <img src="images/wall.jpg" width="30%" alt="none">
-                <p>
-                    サイドバーのレイアウトをマイナーチェンジ。
-                    学習用リンクと情報取得用リンクに分類。
-                </p>
-                <p>
-                    本日の学習内容。<br>
-                    ・freeCodeCamp： Python Iterations のビデオ視聴で英語学習
-                </p>
-                <p>
-                    モデルチェンジとして「学習用教材」
-                    （書籍、Web、等）のページを作ろうと考えてる。
-                </p>
-                <p></p>
-                <br>
 
                 <header class="post-info"><!--     ◆◆◆          2/#  [title]         ◆◆◆  -->
                     <h2 class="post-title" id="href-2">統計WEB</h2>
@@ -448,93 +287,6 @@
                     セキュリティやネットワーク、データベース等、
                     エンジニアとしての基礎知識を体系的に学べるとのこと。
                 </p>
-                <p></p>
-                <p></p>
-                <br>
-
-                <header class="post-info"><!--     ◆◆◆          2/#  [title]         ◆◆◆  -->
-                    <h2 class="post-title" id="href-2">線形代数</h2>
-                    <p class="post-date">2/13 <span>2021</span></p>
-                    <p class="post-cat">カテゴリー：学習記録</p>
-                </header>
-                <img src="images/wall.jpg" width="30%" alt="none">
-                <p>
-                    FE基本情報技術者試験；過去問道場<br>
-                    「ハードウエア」「ヒューマンインターフェース」
-                </p>
-                <p>
-                    【大学数学】線形代数入門：<br>
-                    ④一時独立と一次従属、
-                    ⑤連立方程式；掃き出し法
-                </p>
-                <p>
-                    <b>HP ページ追加</b><br>
-                    Mainページ（表紙）、メニューページ（仮称）、コンタクトページ<br>
-                    一応ページ間のリンクは確認<br>
-                    今後、DX関連書籍等のページ、Web教材の情報等を充実予定。<br>
-                </p>
-                <p></p>
-                <br>
-
-                <header class="post-info"><!--     ◆◆◆          2/#  [title]         ◆◆◆  -->
-                    <h2 class="post-title" id="href-2">[Title]</h2>
-                    <p class="post-date">2/14 <span>2021</span></p>
-                    <p class="post-cat">カテゴリー：学習記録</p>
-                </header>
-                <img src="images/wall.jpg" width="30%" alt="none">
-                <p></p>
-                <p>○統計学の時間：Step.0 初級編が完了</p>
-                <p>○HTML+CSS：freeCodeCamp にて padding, margin, etc.</p>
-                <p>○Python "Alien Invasion"続き</p>
-                <br>
-
-                <header class="post-info"><!--     ◆◆◆          2/#  [title]         ◆◆◆  -->
-                    <h2 class="post-title" id="href-2">[Title]</h2>
-                    <p class="post-date">2/15 <span>2021</span></p>
-                    <p class="post-cat">カテゴリー：学習記録</p>
-                </header>
-                <img src="images/wall.jpg" width="30%" alt="none">
-                <p>○統計学の時間：Step.1 基礎編開始 1.統計ことはじめ</p>
-                <p></p>
-                <p></p>
-                <p></p>
-                <br>
-
-                <header class="post-info"><!--     ◆◆◆          2/#  [title]         ◆◆◆  -->
-                    <h2 class="post-title" id="href-2">Alien_Invasion.py</h2>
-                    <p class="post-date">2/16 <span>2021</span></p>
-                    <p class="post-cat">カテゴリー：学習記録</p>
-                </header>
-                <img src="images/wall.jpg" width="30%" alt="none">
-                <p>○Python "Alien Invasion"続き～p.26</p>
-                <p></p>
-                <p></p>
-                <p></p>
-                <br>
-
-                <header class="post-info"><!--     ◆◆◆          2/#  [title]         ◆◆◆  -->
-                    <h2 class="post-title" id="href-2">Baycom</h2>
-                    <p class="post-date">2/17 <span>2021</span></p>
-                    <p class="post-cat">カテゴリー：学習記録</p>
-                </header>
-                <img src="images/wall.jpg" width="30%" alt="none">
-                <p>
-                    Wi-Fi環境をau光からBaycomに変更。
-                    au光機器の老朽化により動作が不安定になったため。<br>
-                </p>
-                <p>FE基本情報技術者試験；過去問道場</p>
-                <p></p>
-                <p></p>
-                <br>
-
-                <header class="post-info"><!--     ◆◆◆          2/#  [title]         ◆◆◆  -->
-                    <h2 class="post-title" id="href-2">学習記録</h2>
-                    <p class="post-date">2/ <span>2021</span></p>
-                    <p class="post-cat">カテゴリー：学習記録</p>
-                </header>
-                <img src="images/wall.jpg" width="30%" alt="none">
-                <p></p>
-                <p></p>
                 <p></p>
                 <p></p>
                 <br>
