@@ -126,6 +126,9 @@ article {
     width: 60%;
     order: 2;
 }
+.link-item {
+    display: block;
+}
 .link-item a:hover {
     color: #0bd;
 }
@@ -341,7 +344,7 @@ iframe {
     justify-content: space-between;
 }
 #sns .sub-title {
-    margin-bottom: 30px;    
+    margin-bottom: 30px;
 }
 .sns-box {
     width: 30%;
@@ -451,4 +454,3 @@ iframe {
     }
 
 }/* MOBILE MODE */
-
