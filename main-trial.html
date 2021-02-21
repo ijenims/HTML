@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>Trial</title>
+        <meta name="description" content="Trial">
+    <!-- CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+        <!-- link href="css/style.css" rel="stylesheet" -->
+        <link rel="icon" type="image/png" href="images/reading.png">
+    </head>
+
+
+    <style>
+        /* COMMON
+        ------------------------------ */
+        html {
+            font-size: 100%;
+        }
+        body {
+            background-color: #fff;
+            font-family: "Yu Gothic Medium", YuGothic, sans-serif;
+            line-height: 1.7;
+            color: #432;
+        }
+        a {
+            text-decoration: none;
+        }
+        img {
+            max-width: 100%;
+        }
+
+        /* BIG BACKGROUND */
+        .big-bg {
+            background-size: cover;
+            background-position: center top;
+            background-repeat: no-repeat;
+        }
+        #home {
+            background-image: url(../images/eclipse.jpg), linear-gradient(#f7481c, #fdff8c);
+            /*background-color: #0bd;*/
+            background-blend-mode: luminosity;
+            min-height: 100vh;
+        }
+        #home .page-title {
+            text-transform: none;
+        }
+        /* HEADER
+        ------------------------------ */
+        .logo {
+            width: 100px;
+            margin-top: 14px;
+        }
+        .main-nav {
+            display: flex;
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            margin-top: 34px;
+            list-style: none;
+        }
+        .main-nav li {
+            margin-left: 36px;
+        }
+        .main-nav a {
+            color: #432;
+        }
+        .main-nav a:hover {
+            color: #0bd;
+        }
+        .page-header {
+            display: flex;
+            justify-content: space-between;
+        }
+        .wrapper {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 4%;
+        }        
+        /* HOME
+        ------------------------------ */
+        .home-content {
+            text-align: center;
+            margin-top: 10%;
+        }
+        .home-content p {
+            font-size: 1.125rem;
+            margin: 10px 0 42px;
+        }
+        /* 見出し */
+        .page-title {
+            font-size: 5rem;
+            font-family: 'Philosopher', serif;
+            text-transform: uppercase;
+            font-weight: normal;
+        }
+
+        /* BUTTON */
+        .button {
+            font-size: 1.375rem;
+            background: #0bd;
+            color: #fff;
+            border-radius: 5px;
+            padding: 10px 32px;
+        }
+        .button:hover {
+            background: #0090aa;
+        }
+
+
+    </style>
+    <body>
+        <div id="home" class="big-bg">
+            <header class="page-header wrapper">
+                <h1><a href="main.html"><img class="logo" src="images/logo.svg" alt="Minejis Home"></a></h1>
+                <nav>
+                    <ul class="main-nav">
+                        <li><a href="article.html">Article</a></li>
+                        <li><a href="library.html">Library</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="home-content wrapper">
+                <h2 class="page-title">Minejis Web</h2>
+                <p>私の記録で癒されてみませんか？無添加の情報で体の中からリフレッシュ。</p>
+                <a class="button" href="article.html">記事を見る</a>
+            </div><!-- /.home-content -->
+        </div><!-- /#home -->
+    </body>
+
+</html>

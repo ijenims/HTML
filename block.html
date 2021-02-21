@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<style>
+    .block {
+        display: table;
+        border-collapse: collapse;
+        box-sizing: border-box;
+        width: 100%;
+        border: 2px solid #ddd;
+    
+    }
+    .block img {
+        display: table-cell;
+        table-layout: fixed;
+        width: 100px;
+        border-collapse: collapse;
+
+        border: 1px solid #aaa;                
+    }
+    .block a {
+        display: table-cell;
+        table-layout: fixed;
+        border-collapse: collapse;
+        vertical-align: top;
+        padding: 10px;
+        border: 1px solid #aaa;
+        word-wrap: break-word;
+        overflow: hidden;                    
+    }
+    .box {
+        border: 1px solid #aaa;
+    }
+    .box img {
+        width: 100%;
+    }
+    .box a {
+        vertical-align: top;
+        padding: 10px;
+        border: 1px solid #ddd;
+    }
+</style>
+
+<div class="block">
+    <img width="100" src="images/RULE.png" alt="RULE">
+    <a>【display: table;】を使う
+    伝わるデザインの基本 よい資料を作るためのレイアウトのルール</a>
+</div>
+<div class="block">
+    <img src="images/HTMLCSS2.webp" alt="RULE">
+    <a>【display: table;】を使う
+    1冊ですべて身につく HTML&CSS とWeb デザイン入門講座</a>
+</div>
+<div class="block">
+    <img src="images/RUL.png" alt="RULE">
+    <a>ほんの一手間で劇的に変わるHTML & CSSとWebデザイン実践講座</a>
+</div>
+<div class="block">
+    <img src="images/その数学が戦略を決める.webp" alt="none">
+    <a href="https://honto.jp/netstore/pd-book_03273384.html" target=_blank>
+        その数学が戦略を決める</a>
+</div>
+
+<div class="box">
+    <table>
+        <tr>
+            <td>
+                <img width="100" src="images/RULE.png" alt="RULE">
+            </td>
+            <td>
+                <a>【htmlだけ】table（表）を使う<br>
+                伝わるデザインの基本 よい資料を作るためのレイアウトのルール</a>
+            </td>
+        </tr>
+    </table>
+
+</div>
+
+
+
+
+

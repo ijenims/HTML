@@ -97,6 +97,23 @@ img {
     text-transform: none;
 }
 
+/* LIBRARY
+------------------------------ */
+.side-by {
+    list-style: none;
+    border: 1px solid #ddd;
+}
+.side-by img {
+    display: inline-block;
+    width: 100px;
+    vertical-align: top;
+}
+.side-by p {
+    display: inline-block;
+    padding: 5px;
+}
+
+
 /* NEWS
 ------------------------------ */
 #news {
